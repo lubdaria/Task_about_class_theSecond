@@ -36,7 +36,7 @@ class Dog extends Hamster{
 
   constructor(name, age, weight, eat, sex, adoreDasha, run, scratch, swim){
     super(name, age, weight, eat, sex, adoreDasha, run, scratch);
-    this.swim = swim
+    this.swim = swim;
   }
 
   get animalIsSatisfied(){
@@ -64,7 +64,6 @@ class Wolf extends Dog{
     this.satisfactionIndex = false;
   }
 }
-
 class Cheetah extends Dog{
 
   get animalIsSatisfied(){
